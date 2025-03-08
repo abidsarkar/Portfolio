@@ -4,7 +4,7 @@ const NavbarLogo = () => {
   return (
     <div>
         <img src={logo} alt="logo"
-        className='w-44 h-auto' />
+        className='w-25 sm:w-40 h-auto' />
         
     </div>
   )

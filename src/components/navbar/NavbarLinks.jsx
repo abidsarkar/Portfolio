@@ -1,7 +1,7 @@
 import { section } from "motion/react-client";
 import React from "react";
 
-const NavbarLinks = () => {
+const NavbarLinks = ({ direction = "row" }) => {
   const links = [
     { link: "About me", section: "about" },
     { link: "Skills", section: "skills" },
@@ -10,7 +10,11 @@ const NavbarLinks = () => {
     { link: "Contact", section: "contact" },
   ];
   return (
-    <ul className="flex gap-6 text-white font-bold">
+    <ul
+      className={` flex gap-1 text-sm sm:text-xl sm:gap-6 text-white font-bold  ${
+        direction === "col" ? "flex-col items-center" : "flex-row"
+      }`}
+    >
       {links.map((link, index) => {
         return (
           <li key={index}>

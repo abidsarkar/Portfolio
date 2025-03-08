@@ -1,19 +1,49 @@
-import React from "react";
+import React, { useState } from "react";
 import NavbarLogo from "./NavbarLogo";
 import NavbarLinks from "./NavbarLinks";
 import NavbarBtn from "./NavbarBtn";
+import { CiMenuBurger } from "react-icons/ci";
+import { IoCloseSharp } from "react-icons/io5";
 
 const NavbarMain = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <nav className="max-w-[1330px] mx-auto px-4 w-full fixed left-1/2 -translate-x-1/2 top-4 z-20 flex items-center gap-4">
+    <nav className="my-4 px-6 w-full flex items-center justify-between">
       {/* Logo Section */}
-      <div className="flex items-center justify-center  px-4 py-2  ">
-        <NavbarLogo />
+      <div className="sm:ml-12 cursor-pointer">
+        <a href="#">
+          <NavbarLogo />
+        </a>
       </div>
 
-      {/* Main Navbar */}
-      <div className="flex justify-between w-full max-w-[1200px] mx-auto bg-lightBlack items-center px-6 py-3 rounded-full border border-lightGreen shadow-lg">
-        <NavbarLinks />
+      {/* Desktop Navbar */}
+      <div className="hidden sm:flex bg-white/30 backdrop-blur-sm px-10 py-3 rounded-xl border border-lightGreen shadow-lg">
+        <NavbarLinks direction="row" />
+      </div>
+      <div className="hidden sm:flex">
+        <NavbarBtn />
+      </div>
+
+      {/* Mobile Menu Button */}
+      <div
+        className="sm:hidden p-2 sm:p-4 bg-black items-center justify-center rounded-full border border-orange-500 text-white cursor-pointer hover:bg-gray-800 transition-all duration-500 relative"
+        onClick={toggleMenu}
+      >
+        {menuOpen ? <IoCloseSharp size={20} /> : <CiMenuBurger size={20} />}
+      </div>
+
+      {/* Mobile Menu Container */}
+      <div
+        className={`absolute top-20 right-7  bg-white/10 backdrop-blur-md py-2 px-4 rounded-lg  flex-col gap-2 items-center transition-all duration-500  ${
+          menuOpen ? "flex" : "hidden"
+        }`}
+      >
+        <NavbarLinks direction="col" />
         <NavbarBtn />
       </div>
     </nav>
