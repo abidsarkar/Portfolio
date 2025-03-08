@@ -1,16 +1,14 @@
 import "./App.css";
+import NavbarMain from "./components/navbar/NavbarMain";
 import PortfolioSEO from "./components/PortfolioSEO ";
 import { motion } from "motion/react";
 
 function App() {
   return (
-    <>
+    <main className="font-josefin">
       <PortfolioSEO />
-      <div className="box h-44 w-44 bg-blue-500 m-10 text-xl font-poppins">
-       abcd
-      </div>
-      
-    </>
+      <NavbarMain/>
+    </main>
   );
 }
 

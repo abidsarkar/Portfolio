@@ -1,14 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
 @theme {
+  /* font */
   --font-josefin: "Josefin Sans", sans-serif;
   --font-poppins: "Poppins", sans-serif;
   --font-roboto: "Roboto", sans-serif;
+  /* color */
   --color-brown: #53423e;
   --color-lightBrown: #645550;
   --color-darkBrown: #2c2523;
-  --color-black: #1e1917;
+  --color-lightBlack: #1e1917;
   --color-white: #f1e1d9;
+  --color-cyan: #15d1e9;
   --color-lightCyan: #15d1e9;
   --color-darkCyan: #88e5f0;
   --color-orange: #fb9718;
@@ -17,4 +20,14 @@
   --color-gray: #626965;
   --color-lightGray: #978580;
   --color-darkGray: #3f4441;
+  --color-lightGreen: #99EDC3;
+  /* shadow */
+  --shadow-cyanShadow: 0px 0px 20px 0px rgba(94, 206, 220, 0.5);
+  --shadow-cyanBigShadow: 10px 10px 1000px 500px rgba(94, 206, 220, 0.3);
+  --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
+  --shadow-orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
+  --shadow-orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
+}
+body{
+  @apply bg-darkBrown;
 }
