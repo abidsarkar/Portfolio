@@ -1,9 +1,9 @@
 import React from 'react'
-import logo from '../../assets/svg/logo.png'
+
 const NavbarLogo = () => {
   return (
     <div>
-        <img src={logo} alt="logo"
+        <img src="../../public/svg/logo.png" alt="logo"
         className='w-25 sm:w-40 h-auto' />
         
     </div>
