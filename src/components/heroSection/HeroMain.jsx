@@ -2,19 +2,25 @@ import React from "react";
 import HeroText from "./HeroText";
 import HeroLinks from "./HeroLinks";
 import HeroProfilePicture from "./HeroProfilePicture";
+import HeroResumeBtn from "./HeroResumeBtn";
 
 const HeroMain = () => {
   return (
-    <div className="flex flex-col sm:flex-row  gap-2 sm:items-center sm:justify-between px-6 mt-6 flex-wrap ">
-      <div className=" sm:w-[30%]">
-        <HeroText />
+    <div className="flex flex-col sm:flex-row  gap-4 items-center sm:items-center sm:justify-between px-6 mt-6 ">
+      <div className="flex flex-col sm:flex-row gap-1 sm:flex-1 ">
+        <HeroText/>
+        <div className="hidden sm:flex flex-col gap-2 justify-center items-center ">
+        <HeroLinks/>
+        <HeroResumeBtn/>
+        </div>
       </div>
-      <div className="order-last sm:order-none ">
-        <HeroLinks />
+      <div className="sm:flex-2 w-full">
+        <HeroProfilePicture/>
       </div>
-      <div className="w-full sm:w-[30%] ">
-        <HeroProfilePicture />
-      </div>
+      <div className="sm:hidden mt-10 flex flex-col gap-2 justify-center items-center border py-8 px-18 rounded-lg bg-darkGray backdrop-blur-sm">
+        <HeroLinks/>
+        <HeroResumeBtn/>
+        </div>
     </div>
   );
 };

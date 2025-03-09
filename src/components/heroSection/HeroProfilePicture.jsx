@@ -9,7 +9,7 @@ const HeroProfilePicture = () => {
       {/* Profile Image */}
       <div className="relative z-0">
         <img
-          src="../../public/image/profilepic.png"
+          src="/image/profilepic.png"
           alt="MD Abid Sarkar"
           className="max-h-[450px] w-auto rounded-full shadow-lg border-4 border-cyan"
         />
