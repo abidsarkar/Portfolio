@@ -3,11 +3,12 @@ import React from "react";
 
 const NavbarLinks = ({ direction = "row" }) => {
   const links = [
-    { link: "About me", section: "about" },
+    { link: "Home", section: "home" },
     { link: "Skills", section: "skills" },
-    { link: "Experience", section: "experience" },
+    // { link: "Experience", section: "experience" },
     { link: "Projects", section: "projects" },
-    { link: "Contact", section: "contact" },
+    { link: "Education", section: "education" },
+    { link: "Contact Me", section: "contact" },
   ];
   return (
     <ul

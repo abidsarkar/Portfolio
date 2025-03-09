@@ -4,6 +4,7 @@ import HeroMain from "./components/heroSection/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
 import PortfolioSEO from "./components/PortfolioSEO ";
 import { motion } from "motion/react";
+import SkillsTimeline from "./components/skills/SkillsTimeline";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavbarMain/>
       <HeroMain/>
       <HeroGradient/>
+      <SkillsTimeline/>
     </main>
   );
 }

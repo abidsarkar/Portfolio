@@ -1,0 +1,54 @@
+[
+    {
+      "category": "Programming Languages",
+      "skills": [
+        { "title": "JavaScript", "icon": "SiJavascript" },
+        { "title": "Python", "icon": "SiPython" },
+        { "title": "Java", "icon": "FaJava" }
+    
+      ]
+    },
+    {
+      "category": "Frontend",
+      "skills": [
+        { "title": "React.js", "icon": "SiReact" },
+        { "title": "Tailwind CSS", "icon": "SiTailwindcss" }
+      ]
+    },
+    {
+      "category": "Backend",
+      "skills": [
+        { "title": "Node.js", "icon": "SiNodedotjs" },
+        { "title": "Express.js", "icon": "SiExpress" }
+      ]
+    },
+    {
+      "category": "Databases",
+      "skills": [
+        { "title": "MongoDB", "icon": "SiMongodb" },
+        { "title": "MySQL", "icon": "SiMysql" }
+      ]
+    },
+    {
+      "category": "Tools",
+      "skills": [
+        { "title": "Git", "icon": "SiGit" },
+        { "title": "Docker", "icon": "SiDocker" }
+      ]
+    },
+    {
+      "category": "DevOps",
+      "skills": [
+        { "title": "CI/CD", "icon": "SiGithubactions" },
+        { "title": "AWS", "icon": "SiAmazonaws" }
+      ]
+    },
+    {
+      "category": "Design",
+      "skills": [
+        { "title": "Figma", "icon": "SiFigma" },
+        { "title": "Adobe XD", "icon": "SiAdobexd" }
+      ]
+    }
+  ]
+  
