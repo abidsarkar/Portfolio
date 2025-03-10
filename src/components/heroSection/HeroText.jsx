@@ -1,4 +1,5 @@
 import React from "react";
+import TypingEffect from "../../framerMotion/TypingEffect";
 
 const HeroText = () => {
   return (
@@ -13,13 +14,22 @@ const HeroText = () => {
       <br />
       <h2 className="text-3xl sm:text-6xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">
         MD ABID SARKAR
-      </h2>{" "}
+      </h2>
       <br />
+
+      <div className="uppercase text-orange">
+        <TypingEffect
+          texts={[
+            "Full Stack Web Developer",
+            "Software Engineer",
+            "Data Analyst",
+          ]}
+        />
+      </div>
       <p className="text-gray-300 text-xl sm:text-2xl text-wrap">
         {" "}
-        <span className="uppercase text-orange">Full Stack web Developer</span> from
-        Bangladesh.I love building interactive, user-friendly web applications
-        and constantly learning new technologies.
+        from Bangladesh.I love building interactive, user-friendly web
+        applications and constantly learning new technologies.
       </p>
     </div>
   );

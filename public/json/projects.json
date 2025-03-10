@@ -1,0 +1,22 @@
+[
+  {
+    "title": "project1",
+    "image": "image/about-me.jpg",
+    "technology": [
+      { "library": "react-icons/fa", "name": "react" },
+      { "library": "react-icons/fa", "name": "node-js" }
+    ],
+    "demo_link": "https://ems.abidsarkar100.xyz",
+    "github_link": "https://github.com/abidsarkar/Portfolio"
+  },
+  {
+    "title": "project2",
+    "image": "image/about-me.jpg",
+    "technology": [
+      { "library": "react-icons/fa", "name": "react" },
+      { "library": "react-icons/fa", "name": "node-js" }
+    ],
+    "demo_link": "https://ems.abidsarkar100.xyz",
+    "github_link": "https://github.com/abidsarkar/Portfolio"
+  }
+]

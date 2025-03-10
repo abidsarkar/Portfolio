@@ -4,7 +4,7 @@ const PortfolioSEO = () => {
   return (
     <Helmet>
       {/* Primary Meta Tags */}
-      <title>md abid sarkar | Web Developer</title>
+      <title>MD abid sarkar | Web Developer</title>
       <meta name="description" content="Portfolio of MD ABID SARKAR, a Frontend Developer specializing in React, JavaScript, and Tailwind CSS." />
       <meta name="keywords" content="Frontend Developer, React, JavaScript, Tailwind, Web Development, Portfolio BD" />
       <meta name="author" content="Md abid sarkar" />
