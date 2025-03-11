@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaJava, FaReact, FaNodeJs,FaGithub ,FaLink} from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
+import HeroGradient from "../heroSection/HeroGradient";
 
 const iconMap = {
   FaReact: FaReact,
@@ -25,7 +26,7 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
       <h2 className="text-4xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text mb-8">
         My Projects
       </h2>
-
+      <HeroGradient />
       {/* Project Cards Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-1  gap-6 w-full max-w-6xl">
         {projectData.map((project, index) => (
@@ -75,7 +76,7 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
                     href={project.demo_link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-active btn-secondary cursor-pointer text-black"
+                    className="flex items-center gap-2 border border-orange px-2 py-1 text-white bg-white/10 rounded-md mt-5 cursor-pointer hover:bg-littleWhite hover:text-black hover:bg-opacity-20 hover:shadow-cyanShadow transition-all duration-500"
                   >
                     <FaLink/>Live Demo
                   </a>
@@ -83,7 +84,7 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
                     href={project.github_link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-success text-black"
+                    className="flex items-center gap-2 border border-orange px-2 py-1 text-white bg-white/10 rounded-md mt-5 cursor-pointer hover:bg-littleWhite hover:text-black hover:bg-opacity-20 hover:shadow-cyanShadow transition-all duration-500"
                   >
                     <FaGithub/>GitHub
                   </a>

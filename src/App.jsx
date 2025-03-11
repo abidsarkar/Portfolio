@@ -17,6 +17,8 @@ function App() {
       <HeroMain />
       <HeroGradient />
       <SkillsTimeline />
+      
+
       <ProjectCards/>
       
     </main>
