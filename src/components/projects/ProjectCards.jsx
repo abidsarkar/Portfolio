@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaJava, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaJava, FaReact, FaNodeJs,FaGithub ,FaLink} from "react-icons/fa";
 import { SiMongodb, SiExpress } from "react-icons/si";
 
 const iconMap = {
@@ -22,7 +22,7 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
   return (
     <div className="flex flex-col items-center px-6 py-10">
       {/* Main Title */}
-      <h2 className="text-3xl font-bold text-center text-cyan-500 mb-8">
+      <h2 className="text-4xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text mb-8">
         My Projects
       </h2>
 
@@ -31,11 +31,12 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
         {projectData.map((project, index) => (
           <div
             key={index}
-            className="card card-bordered bg-base-200 shadow-lg hover:scale-105 transition-transform duration-300"
+            className="border rounded-xl hover:shadow-orangeSmallShadow hover:scale-105 transition-transform duration-300 "
+            
           >
-            <div className="sm:flex">
+            <div className="sm:flex rounded-2xl">
               {/* Image Section (1/3 width in desktop) */}
-              <div className="flex justify-center items-center sm:w-1/3 w-full">
+              <div className="flex justify-center items-center sm:w-1/3 w-full bg-darkGray rounded-l-2xl">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -44,11 +45,11 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
               </div>
 
               {/* Card Content (2/3 width in desktop) */}
-              <div className="sm:w-2/3 w-full p-4 bg-darkOrange rounded-r-lg">
+              <div className="sm:w-2/3 w-full p-4 rounded-r-lg hover:bg-gray-700">
                 {/* Title */}
-                <h3 className="text-2xl font-semibold">{project.title}</h3>
+                <h3 className="text-2xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">{project.title}</h3>
                 {/* description */}
-                <p className="text-black mt-2 text-xl">{project.description}</p>
+                <p className="text-white mt-2 text-xl">{project.description}</p>
 
                 {/* Technologies Used */}
                 <div className="flex flex-wrap gap-2 mt-3">
@@ -74,17 +75,17 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
                     href={project.demo_link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-success btn-sm cursor-pointer"
+                    className="btn btn-active btn-secondary cursor-pointer text-black"
                   >
-                    Live Demo
+                    <FaLink/>Live Demo
                   </a>
                   <a
                     href={project.github_link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="btn btn-primary btn-sm cursor-pointer"
+                    className="btn btn-success text-black"
                   >
-                    GitHub
+                    <FaGithub/>GitHub
                   </a>
                 </div>
               </div>

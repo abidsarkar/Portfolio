@@ -1,18 +1,10 @@
 [
   {
-    "title": "Employee Management System",
+    "title": "Employee Management System ",
     "image": "/image/project/ems.png",
     "description":"The app is for solving employee management problem",
     "technology": [
-      { "className": "FaReact", "name": "react" },
-      { "className": "FaNodeJs", "name": "node-js" },
-      { "className": "FaNodeJs", "name": "node-js" },
-      { "className": "FaNodeJs", "name": "node-js" },
-      { "className": "FaNodeJs", "name": "node-js" },
-      { "className": "FaNodeJs", "name": "node-js" },
-      { "className": "FaNodeJs", "name": "node-js" },
-      { "className": "FaNodeJs", "name": "node-js" },
-      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaReact", "name": "react" }, 
       { "className": "FaNodeJs", "name": "node-js" }
     ],
     "demo_link": "https://ems.abidsarkar100.xyz",
