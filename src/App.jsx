@@ -11,7 +11,7 @@ import SkillsTimeline from "./components/skills/SkillsTimeline";
 
 function App() {
   return (
-    <main className="font-josefin">
+    <main className="font-josefin ">
       {/* <PortfolioSEO /> */}
       <NavbarMain />
       <HeroMain />

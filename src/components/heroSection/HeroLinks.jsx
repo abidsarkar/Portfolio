@@ -8,7 +8,7 @@ const HeroLinks = () => {
       href="https://www.linkedin.com/in/md-abid-sarkar-556903290/" // Replace with your LinkedIn URL
       target="_blank"
       rel="noopener noreferrer"
-      className="group relative flex items-center justify-center w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] rounded-full border-2 border-cyan shadow-lg bg-darkBlack transition-transform transform hover:scale-110 hover:shadow-cyanShadow"
+      className=" group relative flex items-center justify-center w-[120px] h-[120px] sm:w-[150px] sm:h-[150px] rounded-full border-2 border-cyan shadow-lg bg-darkBlack transition-transform transform hover:scale-110 hover:shadow-cyanShadow"
     >
       {/* Text Inside the Circle */}
       <span className="text-xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text text-start">

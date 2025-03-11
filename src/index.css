@@ -30,7 +30,7 @@
   --shadow-orangeSmallShadow: 0px 0px 10px 0px rgba(240, 169, 79, 0.3);
   --shadow-orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
   /* gradient color */
-  
+
   --animate-spinSlow: spin 10s linear infinite;
 }
 @layer utilities {
@@ -43,12 +43,17 @@
       #7de7eb 55.12%,
       #5ce1e6 71.54%,
       #33bbcf 100%
+    );
+    .newGradient {
+      background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(9, 108, 121, 0.8561799719887955) 47%,
+        rgba(0, 212, 255, 1) 100%
       );
-      
-      
     }
   }
-  body {
-    @apply bg-darkBrown;
-  }
-
+}
+body {
+  @apply bg-darkBrown;
+}

@@ -1,6 +1,5 @@
 import React from "react";
-// import TypingEffect from "../../framerMotion/TypingEffect";
-
+import { Typewriter } from "react-simple-typewriter";
 const HeroText = () => {
   return (
     <div className="w-full sm:w-[80%]">
@@ -17,19 +16,22 @@ const HeroText = () => {
       </h2>
       <br />
 
-      <div className="uppercase text-orange">
-        {/* <TypingEffect
-          texts={[
-            "Full Stack Web Developer",
-            "Software Engineer",
-            "Data Analyst",
-          ]}
-        /> */}
+      <div className="lg:text-3xl sm:text-2xl uppercase text-orange">
+        
+        <span>
+          {<Typewriter 
+          words={["React Dev", "Web designer", "Next js dev"]}
+          loop={Infinity}
+            cursor
+            cursorStyle='_'
+            typeSpeed={100}
+            deleteSpeed={50}
+            />}
+        </span>
       </div>
       <p className="text-gray-300 text-xl sm:text-2xl text-wrap">
-      Full Stack Web Developer
-        from Bangladesh.I love building interactive, user-friendly web
-        applications and constantly learning new technologies.
+         from Bangladesh.I love building interactive,
+        user-friendly web applications and constantly learning new technologies.
       </p>
     </div>
   );

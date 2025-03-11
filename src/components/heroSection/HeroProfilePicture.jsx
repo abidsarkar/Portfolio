@@ -10,14 +10,14 @@ const HeroProfilePicture = () => {
           src="/image/profilepic.png"
           
           alt="MD Abid Sarkar"
-          className="bg-lightOrange hover:shadow-cyanMediumShadow max-w-[200px] sm:max-w-[300px]  h-auto rounded-full shadow-xl border-4 border-cyan "
+          className=" bg-lightOrange hover:shadow-cyanMediumShadow max-w-[200px] sm:max-w-[300px]  h-auto rounded-full shadow-xl border-4 border-cyan "
         />
       </div>
 
       {/* Rotating Dashed Circle */}
       {/* animate-spinSlow */}
       <div className="absolute z-0 ">
-        <PiCircleDashedThin className="text-orange w-[350px] h-[350px] sm:w-[500px] sm:h-[500px]" />
+        <PiCircleDashedThin className="animate-pulse text-orange w-[350px] h-[350px] sm:w-[400px] sm:h-[400px]" />
       </div>
     </div>
   );

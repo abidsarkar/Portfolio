@@ -13,9 +13,9 @@ const NavbarMain = () => {
   };
 
   return (
-    <nav className="my-4 px-6 w-full flex items-center justify-between">
+    <nav className="my-4 px-4 lg:px-80  w-full flex items-center justify-between ">
       {/* Logo Section */}
-      <div className="sm:ml-12 cursor-pointer">
+      <div className=" cursor-pointer">
         <a href="./">
           <NavbarLogo />
         </a>

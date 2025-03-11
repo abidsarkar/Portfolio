@@ -32,12 +32,12 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
         {projectData.map((project, index) => (
           <div
             key={index}
-            className="border rounded-xl hover:shadow-orangeSmallShadow hover:scale-105 transition-transform duration-300 "
+            className="hover:bg-gradient-to-r from-slate-300 to-slate-500 border rounded-xl hover:shadow-orangeSmallShadow hover:scale-102 transition-transform duration-300 "
             
           >
             <div className="sm:flex rounded-2xl">
               {/* Image Section (1/3 width in desktop) */}
-              <div className="flex justify-center items-center sm:w-1/3 w-full bg-darkGray rounded-l-2xl">
+              <div className="flex justify-center items-center sm:w-1/3 w-full bg-gradient-to-r from-slate-900 to-slate-700 rounded-l-2xl">
                 <img
                   src={project.image}
                   alt={project.title}
@@ -46,7 +46,7 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
               </div>
 
               {/* Card Content (2/3 width in desktop) */}
-              <div className="sm:w-2/3 w-full p-4 rounded-r-lg hover:bg-gray-700">
+              <div className="sm:w-2/3 w-full p-4 rounded-r-lg ">
                 {/* Title */}
                 <h3 className="text-2xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">{project.title}</h3>
                 {/* description */}
