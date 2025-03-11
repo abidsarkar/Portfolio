@@ -1,10 +1,19 @@
 [
   {
-    "title": "project1",
-    "image": "image/about-me.jpg",
+    "title": "Employee Management System",
+    "image": "/image/project/ems.png",
+    "description":"The app is for solving employee management problem",
     "technology": [
-      { "library": "react-icons/fa", "name": "react" },
-      { "library": "react-icons/fa", "name": "node-js" }
+      { "className": "FaReact", "name": "react" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "FaNodeJs", "name": "node-js" }
     ],
     "demo_link": "https://ems.abidsarkar100.xyz",
     "github_link": "https://github.com/abidsarkar/Portfolio"
@@ -12,9 +21,10 @@
   {
     "title": "project2",
     "image": "image/about-me.jpg",
+    "description":"The app is for solving employee management problem",
     "technology": [
-      { "library": "react-icons/fa", "name": "react" },
-      { "library": "react-icons/fa", "name": "node-js" }
+      { "className": "FaReact", "name": "react" },
+      { "className": "FaNodeJs", "name": "node-js" }
     ],
     "demo_link": "https://ems.abidsarkar100.xyz",
     "github_link": "https://github.com/abidsarkar/Portfolio"

@@ -15,7 +15,8 @@ const HeroProfilePicture = () => {
       </div>
 
       {/* Rotating Dashed Circle */}
-      <div className="absolute z-0 animate-spinSlow">
+      {/* animate-spinSlow */}
+      <div className="absolute z-0 ">
         <PiCircleDashedThin className="text-orange w-[350px] h-[350px] sm:w-[500px] sm:h-[500px]" />
       </div>
     </div>
