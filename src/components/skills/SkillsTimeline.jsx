@@ -13,10 +13,19 @@ import {
   SiGithubactions,
   SiFigma,
   SiAdobexd,
+  SiPostman,
+  SiCanva,
 } from "react-icons/si";
 import { FaAmazon } from "react-icons/fa6";
-import { FaJava } from "react-icons/fa";
+import { FaJava, FaLinux, FaCpanel } from "react-icons/fa";
+import { GrOracle } from "react-icons/gr";
+import { TbBrandCpp } from "react-icons/tb";
+import { FaC } from "react-icons/fa6";
 const iconMap = {
+  FaC,
+  TbBrandCpp,
+  FaCpanel,
+  GrOracle,
   SiJavascript,
   SiPython,
   SiReact,
@@ -32,6 +41,9 @@ const iconMap = {
   SiFigma,
   SiAdobexd,
   FaJava,
+  SiPostman,
+  SiCanva,
+  FaLinux,
 };
 
 const SkillsTimeline = () => {
@@ -46,7 +58,9 @@ const SkillsTimeline = () => {
 
   return (
     <div className="w-full flex flex-col sm:items-center px-6 py-10 mt-10 ">
-      <h2 className="text-3xl sm:text-6xl  mb-10 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">Skills</h2>
+      <h2 className="text-3xl sm:text-6xl  mb-10 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">
+        Skills
+      </h2>
       <div className="relative  pl-6 sm:grid sm:grid-cols-2 sm:gap-x-25 sm:content-center">
         {skillsData.map((category, index) => (
           <div key={index} className="mb-10 relative ">
@@ -64,10 +78,7 @@ const SkillsTimeline = () => {
               {category.skills.map((skill, idx) => {
                 const IconComponent = iconMap[skill.icon] || SiMongodb; // Default icon
                 return (
-                  <div
-                    key={idx}
-                    className="flex flex-col items-center gap-2 "
-                  >
+                  <div key={idx} className="flex flex-col items-center gap-2 ">
                     <IconComponent className="text-white text-2xl hover:text-lightCyan transition-all duration-300" />
                     <span className="text-darkCyan text-sm ">
                       {skill.title}

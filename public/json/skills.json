@@ -4,7 +4,9 @@
       "skills": [
         { "title": "JavaScript", "icon": "SiJavascript" },
         { "title": "Python", "icon": "SiPython" },
-        { "title": "Java", "icon": "FaJava" }
+        { "title": "Java", "icon": "FaJava" },
+        { "title": "C++", "icon": "TbBrandCpp" },
+        { "title": "C", "icon": "FaC" }
     
       ]
     },
@@ -26,28 +28,29 @@
       "category": "Databases",
       "skills": [
         { "title": "MongoDB", "icon": "SiMongodb" },
-        { "title": "MySQL", "icon": "SiMysql" }
+        { "title": "Oracle DB", "icon": "GrOracle" }
       ]
     },
     {
       "category": "Tools",
       "skills": [
         { "title": "Git", "icon": "SiGit" },
-        { "title": "Docker", "icon": "SiDocker" }
+        { "title": "Postman", "icon": "SiPostman" },
+        { "title": "cPanel", "icon": "FaCpanel" }
       ]
     },
     {
       "category": "DevOps",
       "skills": [
         { "title": "CI/CD", "icon": "SiGithubactions" },
-        { "title": "AWS", "icon": "SiAmazonaws" }
+        { "title": "Linux ", "icon": "FaLinux" }
       ]
     },
     {
       "category": "Design",
       "skills": [
         { "title": "Figma", "icon": "SiFigma" },
-        { "title": "Adobe XD", "icon": "SiAdobexd" }
+        { "title": "Canva", "icon": "SiCanva" }
       ]
     }
   ]
