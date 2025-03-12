@@ -2,23 +2,74 @@
   {
     "title": "Employee Management System ",
     "image": "/image/project/ems.png",
-    "description":"The app is for solving employee management problem",
+    "description": "The app is for solving employee management problem.You can login as Admin and create Employee Account and give task to them. track there task add new task and delete task. Search Employee to show there Working Progress and An Employee also Login using there Id And Password. they can submit there task and Let the Admin Know About Status of the work. The Frontend Host in Vercel and Own Hosting the BackEnd Host In Render",
     "technology": [
-      { "className": "FaReact", "name": "react" }, 
-      { "className": "FaNodeJs", "name": "node-js" }
+      { "className": "FaReact", "name": "react" },
+      { "className": "SiTailwindcss", "name": "Tailwindcss" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "SiMongodb", "name": "MongoDB" },
+      { "className": "SiExpress", "name": "Express js" },
+      { "className": "SiReactrouter", "name": "SiReactrouter" },
+      { "className": "SiRedux", "name": "React Redux " }
     ],
     "demo_link": "https://ems.abidsarkar100.xyz",
     "github_link": "https://github.com/abidsarkar/Portfolio"
   },
   {
-    "title": "project2",
-    "image": "image/about-me.jpg",
-    "description":"The app is for solving employee management problem",
+    "title": "javascript Project Hub",
+    "image": "image/project/jsProjectHub.png",
+    "description": "This project is a place where you can find good ideas to make small frontend projects.This Project has 2 version one with full stack with backend With Express js and option to upload project using upload portal and one is static. Also to Store Data We use Image for Cloudinary and Database for mongoDb. The live one is Static One and Both one is in Github as Branch",
     "technology": [
-      { "className": "FaReact", "name": "react" },
-      { "className": "FaNodeJs", "name": "node-js" }
+      { "className": "FaReact", "name": "React js" },
+      { "className": "SiTailwindcss", "name": "Tailwindcss" },
+      { "className": "FaNodeJs", "name": "Node js" },
+      { "className": "SiMongodb", "name": "MongoDB" },
+      { "className": "SiExpress", "name": "Express js" },
+      { "className": "SiReactrouter", "name": "SiReactrouter" },
+      { "className": "SiCloudinary", "name": "Cloudinary" }
     ],
-    "demo_link": "https://ems.abidsarkar100.xyz",
-    "github_link": "https://github.com/abidsarkar/Portfolio"
+    "demo_link": "https://javascript-project.abidsarkar100.xyz",
+    "github_link": "https://github.com/abidsarkar/javascript-Project-Hub"
+  },
+  {
+    "title": "CodeVault",
+    "image": "image/project/codeVoalts.png",
+    "description": "CodeVault is a React-Tailwind application designed for Store, Organize, and Share Your Code & Command-Line Snippets.Storing Data in LocalStorage. ",
+    "technology": [
+      { "className": "FaReact", "name": "React js" },
+      { "className": "SiTailwindcss", "name": "Tailwindcss" },
+      { "className": "FaNodeJs", "name": "Node js" },
+      { "className": "SiExpress", "name": "Express js" },
+      { "className": "SiReactrouter", "name": "SiReactrouter" },
+      { "className": "SiRedux", "name": "React Redux " }
+    ],
+    "demo_link": "https://code-vault-eight.vercel.app",
+    "github_link": "https://github.com/abidsarkar/CodeVault"
+  },
+  {
+    "title": "Alpha eCommerce Clone",
+    "image": "image/project/alphaEcommerce.png",
+    "description": "A fully responsive eCommerce website clone built using HTML, CSS, and JavaScript. This project demonstrates a modern and visually appealing eCommerce layout with interactive features.",
+    "technology": [
+      { "className": "FaHtml5", "name": "Html" },
+      { "className": "FaCss3Alt", "name": "CSS" },
+      { "className": "FaJs", "name": "Java Script" }
+      
+    ],
+    "demo_link": "https://alpha-ecommerce-demo.netlify.app",
+    "github_link": "https://github.com/abidsarkar/Ecommerce-Website-Alpha-Responsive"
+  },
+  {
+    "title": "Image Search Engine",
+    "image": "image/project/imageSearch.png",
+    "description": "An Image Search Engine that allows users to search for images using the Unsplash API. Users can view images in a grid layout and download their favorites with a simple click.",
+    "technology": [
+      { "className": "FaHtml5", "name": "Html" },
+      { "className": "FaCss3Alt", "name": "CSS" },
+      { "className": "FaJs", "name": "Java Script" }
+      
+    ],
+    "demo_link": "https://abidsarkar.github.io/LIVE/",
+    "github_link": "https://github.com/abidsarkar/free-image-download"
   }
 ]

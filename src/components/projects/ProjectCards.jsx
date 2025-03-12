@@ -1,7 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { FaJava, FaReact, FaNodeJs,FaGithub ,FaLink} from "react-icons/fa";
-import { SiMongodb, SiExpress } from "react-icons/si";
-import HeroGradient from "../heroSection/HeroGradient";
+import { FaJava, FaReact, FaNodeJs, FaGithub, FaLink,FaHtml5,FaCss3Alt ,FaJs   } from "react-icons/fa";
+import {
+  SiMongodb,
+  SiExpress,
+  SiReactrouter,
+  SiRedux,
+  SiCloudinary,
+  SiTailwindcss,
+} from "react-icons/si";
+
+
 
 const iconMap = {
   FaReact: FaReact,
@@ -9,9 +17,17 @@ const iconMap = {
   FaJava: FaJava,
   SiMongodb: SiMongodb,
   SiExpress: SiExpress,
+  SiCloudinary: SiCloudinary,
+  SiRedux: SiRedux,
+  SiReactrouter: SiReactrouter,
+  SiTailwindcss: SiTailwindcss,
+  FaHtml5:FaHtml5,
+  FaJs:FaJs ,
+  FaCss3Alt:FaCss3Alt ,
 };
 
-const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
+const ProjectCards = () => {
+  const [projectData, setProjectData] = useState([]);
 
   useEffect(() => {
     fetch("/json/projects.json")
@@ -26,14 +42,13 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
       <h2 className="text-4xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text mb-8">
         My Projects
       </h2>
-      <HeroGradient />
+      
       {/* Project Cards Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-1  gap-6 w-full max-w-6xl">
         {projectData.map((project, index) => (
           <div
             key={index}
             className="hover:bg-gradient-to-r from-slate-300 to-slate-500 border rounded-xl hover:shadow-orangeSmallShadow hover:scale-102 transition-transform duration-300 "
-            
           >
             <div className="sm:flex rounded-2xl">
               {/* Image Section (1/3 width in desktop) */}
@@ -48,7 +63,9 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
               {/* Card Content (2/3 width in desktop) */}
               <div className="sm:w-2/3 w-full p-4 rounded-r-lg ">
                 {/* Title */}
-                <h3 className="text-2xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">{project.title}</h3>
+                <h3 className="text-2xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">
+                  {project.title}
+                </h3>
                 {/* description */}
                 <p className="text-white mt-2 text-xl">{project.description}</p>
 
@@ -71,23 +88,29 @@ const ProjectCards = () => {const [projectData, setProjectData] = useState([]);
                 </div>
 
                 {/* Buttons */}
+
                 <div className="mt-5 flex justify-between">
-                  <a
-                    href={project.demo_link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 border border-orange px-2 py-1 text-white bg-white/10 rounded-md mt-5 cursor-pointer hover:bg-littleWhite hover:text-black hover:bg-opacity-20 hover:shadow-cyanShadow transition-all duration-500"
-                  >
-                    <FaLink/>Live Demo
-                  </a>
-                  <a
-                    href={project.github_link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 border border-orange px-2 py-1 text-white bg-white/10 rounded-md mt-5 cursor-pointer hover:bg-littleWhite hover:text-black hover:bg-opacity-20 hover:shadow-cyanShadow transition-all duration-500"
-                  >
-                    <FaGithub/>GitHub
-                  </a>
+                  {project.demo_link && (
+                    <a
+                      href={project.demo_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 border border-orange px-2 py-1 text-white bg-white/10 rounded-md mt-5 cursor-pointer hover:bg-littleWhite hover:text-black hover:bg-opacity-20 hover:shadow-cyanShadow transition-all duration-500"
+                    >
+                      <FaLink /> Live Demo
+                    </a>
+                  )}
+                  {project.github_link && (
+                    <a
+                      href={project.github_link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 border border-orange px-2 py-1 text-white bg-white/10 rounded-md mt-5 cursor-pointer hover:bg-littleWhite hover:text-black hover:bg-opacity-20 hover:shadow-cyanShadow transition-all duration-500"
+                    >
+                      <FaGithub />
+                      GitHub
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
