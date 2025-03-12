@@ -10,7 +10,7 @@ const HeroProfilePicture = () => {
           src="/image/profilepic.png"
           
           alt="MD Abid Sarkar"
-          className=" bg-lightOrange hover:shadow-cyanMediumShadow max-w-[200px] sm:max-w-[300px]  h-auto rounded-full shadow-xl border-4 border-cyan "
+          className=" bg-lightOrange hover:shadow-orangeMediumShadow max-w-[200px] sm:max-w-[300px]  h-auto rounded-full shadow-xl border-4 border-cyan "
         />
       </div>
 

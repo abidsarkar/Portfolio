@@ -37,7 +37,7 @@ const ProjectCards = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center px-6 py-10">
+    <div id="projects" className="flex flex-col items-center px-6 py-10 bg-[url('/image/perallex/projects.jpg')] bg-cover bg-center bg-fixed bg-no-repeat min-h-screen">
       {/* Main Title */}
       <h2 className="text-4xl font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text mb-8">
         My Projects

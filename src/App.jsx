@@ -1,4 +1,6 @@
 import "./App.css";
+import Contact from "./components/contact/Contact";
+import Education from "./components/education/Education";
 import HeroGradient from "./components/heroSection/HeroGradient";
 import HeroMain from "./components/heroSection/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
@@ -8,19 +10,20 @@ import ProjectCards from "./components/projects/ProjectCards";
 
 import SkillsTimeline from "./components/skills/SkillsTimeline";
 
-
 function App() {
   return (
     <main className="font-josefin ">
       {/* <PortfolioSEO /> */}
-      <NavbarMain />
-      <HeroMain />
-      <HeroGradient />
-      <SkillsTimeline />
-      
+      <div className="bg-[url('/image/perallex/hero.jpg')] bg-cover bg-center bg-fixed bg-no-repeat min-h-screen">
+        <NavbarMain />
+        <HeroMain />
+        <HeroGradient />
+      </div>
 
-      <ProjectCards/>
-      
+      <SkillsTimeline />
+      <ProjectCards />
+      <Education />
+      <Contact />
     </main>
   );
 }

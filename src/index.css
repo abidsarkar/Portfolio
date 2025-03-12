@@ -28,7 +28,7 @@
   --shadow-cyanMediumShadow: 10px 10px 200px 150px rgba(94, 206, 220, 0.5);
   --shadow-orangeBigShadow: 10px 10px 10000px 500px rgba(240, 169, 79, 0.3);
   --shadow-orangeSmallShadow: 0px 0px 10px 0px rgba(240, 169, 79, 0.3);
-  --shadow-orangeMediumShadow: 10px 10px 2000px 150px rgba(240, 169, 79, 0.5);
+  --shadow-orangeMediumShadow: 10px 10px 200px 150px rgba(240, 169, 79, 0.5);
   /* gradient color */
 
   --animate-spinSlow: spin 10s linear infinite;

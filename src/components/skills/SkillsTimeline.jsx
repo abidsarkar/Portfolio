@@ -57,7 +57,7 @@ const SkillsTimeline = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col sm:items-center px-6 py-10 mt-10 ">
+    <div id="skills" className="w-full flex flex-col sm:items-center px-6 py-10  bg-[url('/image/perallex/skills.jpg')] bg-cover bg-center bg-fixed bg-no-repeat min-h-screen ">
       <h2 className="text-3xl sm:text-6xl  mb-10 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">
         Skills
       </h2>

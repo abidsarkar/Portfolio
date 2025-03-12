@@ -13,7 +13,7 @@ const NavbarMain = () => {
   };
 
   return (
-    <nav className="my-4 px-4 lg:px-80  w-full flex items-center justify-between ">
+    <nav className="px-4 lg:px-80  w-full flex items-center justify-between ">
       {/* Logo Section */}
       <div className=" cursor-pointer">
         <a href="./">
