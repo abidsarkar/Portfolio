@@ -29,7 +29,7 @@ const HeroText = () => {
             />}
         </span>
       </div>
-      <p className="text-gray-300 text-xl sm:text-2xl text-wrap">
+      <p className="text-white text-xl sm:text-2xl text-wrap">
          from Bangladesh.I love building interactive,
         user-friendly web applications and constantly learning new technologies.
       </p>
