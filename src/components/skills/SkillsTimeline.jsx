@@ -19,9 +19,11 @@ import {
 import { FaAmazon } from "react-icons/fa6";
 import { FaJava, FaLinux, FaCpanel } from "react-icons/fa";
 import { GrOracle } from "react-icons/gr";
-import { TbBrandCpp } from "react-icons/tb";
+import { TbBrandCpp ,TbBrandFramerMotion} from "react-icons/tb";
+
 import { FaC } from "react-icons/fa6";
 const iconMap = {
+  TbBrandFramerMotion,
   FaC,
   TbBrandCpp,
   FaCpanel,

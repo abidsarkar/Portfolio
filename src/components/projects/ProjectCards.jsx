@@ -9,9 +9,12 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 
-
+import { TbBrandFramerMotion } from "react-icons/tb";
+import { MdOutlineAnimation } from "react-icons/md";
 
 const iconMap = {
+  MdOutlineAnimation:MdOutlineAnimation,
+  TbBrandFramerMotion:TbBrandFramerMotion,
   FaReact: FaReact,
   FaNodeJs: FaNodeJs,
   FaJava: FaJava,

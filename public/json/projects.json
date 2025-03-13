@@ -13,6 +13,20 @@
       { "className": "SiRedux", "name": "React Redux " }
     ],
     "demo_link": "https://ems.abidsarkar100.xyz",
+    "github_link": "https://github.com/abidsarkar/Employee-Managemet-System-MERN-Stack.git"
+  },
+  {
+    "title": "Portfolio ",
+    "image": "/image/project/portfolio.png",
+    "description": "This project showcases my skills as a web developer, including my ability to build responsive websites, work with JavaScript frameworks, and integrate various web technologies.",
+    "technology": [
+      { "className": "FaReact", "name": "react" },
+      { "className": "SiTailwindcss", "name": "Tailwindcss" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "MdOutlineAnimation", "name": "Lottie" },
+      { "className": "TbBrandFramerMotion", "name": "Framer Motion" }
+    ],
+    "demo_link": "https://www.abidsarkar100.xyz",
     "github_link": "https://github.com/abidsarkar/Portfolio"
   },
   {
@@ -54,7 +68,6 @@
       { "className": "FaHtml5", "name": "Html" },
       { "className": "FaCss3Alt", "name": "CSS" },
       { "className": "FaJs", "name": "Java Script" }
-      
     ],
     "demo_link": "https://alpha-ecommerce-demo.netlify.app",
     "github_link": "https://github.com/abidsarkar/Ecommerce-Website-Alpha-Responsive"
@@ -67,7 +80,6 @@
       { "className": "FaHtml5", "name": "Html" },
       { "className": "FaCss3Alt", "name": "CSS" },
       { "className": "FaJs", "name": "Java Script" }
-      
     ],
     "demo_link": "https://abidsarkar.github.io/free-image-download/",
     "github_link": "https://github.com/abidsarkar/free-image-download"

@@ -14,7 +14,8 @@
       "category": "Frontend",
       "skills": [
         { "title": "React.js", "icon": "SiReact" },
-        { "title": "Tailwind CSS", "icon": "SiTailwindcss" }
+        { "title": "Tailwind CSS", "icon": "SiTailwindcss" },
+        { "title": "Framer Motion", "icon": "TbBrandFramerMotion" }
       ]
     },
     {
