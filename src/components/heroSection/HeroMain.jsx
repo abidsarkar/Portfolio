@@ -3,6 +3,7 @@ import HeroText from "./HeroText";
 import HeroLinks from "./HeroLinks";
 import HeroProfilePicture from "./HeroProfilePicture";
 import HeroResumeBtn from "./HeroResumeBtn";
+import ContactSocial from "../contact/ContactSocial";
 
 const HeroMain = () => {
   return (
@@ -11,7 +12,8 @@ const HeroMain = () => {
         <HeroText/>
         <div className="hidden sm:flex flex-col gap-2 justify-center items-center ">
         <HeroLinks/>
-        <HeroResumeBtn/>
+        
+        <ContactSocial/>
         </div>
       </div>
       <div className="lg:flex-1 w-full">

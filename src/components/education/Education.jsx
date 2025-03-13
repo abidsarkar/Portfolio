@@ -1,24 +1,27 @@
-import React from "react";
+import React, { useMemo } from "react";
 import Lottie from "lottie-react";
 import educationAnimation from "../../lotties/educationAnimation.json";
 
 const Education = () => {
+  const abc = () =>{
+    
+  }
+  const animationData = useMemo(() => educationAnimation, []);
   return (
     <section id="education" className="py-16 px-6 bg-darkBrown text-white">
-      <h2 className="text-center text-3xl sm:text-6xl  mb-10 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">
+      <h2 className="text-center text-4xl sm:text-6xl  mb-10 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">
         Education
       </h2>
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center  gap-12">
+      <div className="flex flex-col md:flex-row items-center md:justify-around  gap-12">
         {/* Animation */}
-        <div className="w-full md:w-1/2">
-          <Lottie animationData={educationAnimation} loop={true} />
+        <div className="sm:w-80 w-50">
+          <Lottie animationData={animationData} loop={true} />
         </div>
         {/* Education Details */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-3xl sm:text-4xl font-bold text-cyan mb-6 flex items-center gap-3">
-            <img src="./image/ewulogo.png" className="text-orange text-xl bg-white" />
-            
-          </h2>
+          <div className="w-full h-auto bg-white rounded-xl py-1 mb-6">
+            <img src="./image/ewulogo.png" />
+          </div>
 
           {/* University Info */}
           <div className="p-6 bg-gray-800 rounded-xl shadow-lg">
