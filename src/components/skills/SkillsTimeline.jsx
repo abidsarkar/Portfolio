@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { motion } from "motion/react";
 import {
   SiJavascript,
   SiPython,
@@ -71,12 +72,20 @@ const SkillsTimeline = () => {
             {/* timeline line */}
             <div className="absolute -left-7  h-full scale-y-120 rounded-full border border-l-1 border-gray "></div>
             {/* Skill Category */}
-            <h3 className="text-xl sm:text-3xl mb-2 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">
+            <motion.h3 className="text-xl sm:text-3xl mb-2 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text"
+            initial={{ x: "100%", opacity: 0 }} 
+            whileInView={{ x: 0, opacity: 1 }} 
+            transition={{ type: "spring", stiffness: 100, duration: 1 }} 
+            >
               {category.category}
-            </h3>
+            </motion.h3>
 
             {/* Skills List */}
-            <div className="mt-3 grid grid-cols-3 sm:grid-cols-4 gap-2">
+            <motion.div className="mt-3 grid grid-cols-3 sm:grid-cols-4 gap-2"
+            initial={{ x: "-100%", opacity: 0 }} 
+            whileInView={{ x: 0, opacity: 1 }} 
+            transition={{ type: "spring", stiffness: 100, duration: .8 }} 
+            >
               {category.skills.map((skill, idx) => {
                 const IconComponent = iconMap[skill.icon] || SiMongodb; // Default icon
                 return (
@@ -88,7 +97,7 @@ const SkillsTimeline = () => {
                   </div>
                 );
               })}
-            </div>
+            </motion.div>
           </div>
         ))}
       </div>
