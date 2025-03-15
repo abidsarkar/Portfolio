@@ -24,12 +24,15 @@ function App() {
 
   return (
     <main className="font-josefin">
+      <h1 className="sr-only">Md Abid Sarkar - Full Stack Web Developer</h1>
+
+      <p className="sr-only">Web development, portfolio, abid sarkar, md abid sarkar, abid sarkar cse, abid sarkar ewu, abid portfolio</p>
       {/* SEO Optimization */}
       {/* <PortfolioSEO /> */}
 
       {/* Hero Section with Lazy Background */}
       <div
-        className="min-h-screen bg-cover bg-center bg-fixed transition-opacity duration-1000"
+        className="min-h-screen bg-cover bg-center bg-fixed transition-opacity overflow-hidden"
         style={{
           backgroundImage: bgLoaded
             ? "url('/image/perallex/hero.jpg')" // Load high-res when available
