@@ -23,7 +23,7 @@ function App() {
   }, []);
 
   return (
-    <main className="font-josefin">
+    <main className="font-josefin overflow-hidden">
       <h1 className="sr-only">Md Abid Sarkar - Full Stack Web Developer</h1>
 
       <p className="sr-only">Web development, portfolio, abid sarkar, md abid sarkar, abid sarkar cse, abid sarkar ewu, abid portfolio</p>
