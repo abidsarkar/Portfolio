@@ -1,24 +1,41 @@
 import "./App.css";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+import { useState, useEffect } from "react";
+
 
 import Education from "./components/education/Education";
 import HeroGradient from "./components/heroSection/HeroGradient";
 import HeroMain from "./components/heroSection/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
-import PortfolioSEO from "./components/PortfolioSEO ";
+
 
 import ProjectCards from "./components/projects/ProjectCards";
-
 import SkillsTimeline from "./components/skills/SkillsTimeline";
 import ContactMeMain from "./components/contact/ContactMeMain";
 import Footer from "./components/footer/Footer";
 
 function App() {
+  const [bgLoaded, setBgLoaded] = useState(false);
+
+  useEffect(() => {
+    const img = new Image();
+    img.src = "/image/perallex/hero.jpg";
+    img.onload = () => setBgLoaded(true);
+  }, []);
+
   return (
-    <main className="font-josefin ">
+    <main className="font-josefin">
+      {/* SEO Optimization */}
       {/* <PortfolioSEO /> */}
-      <div className="bg-[url('/image/perallex/hero.jpg')] bg-cover bg-center bg-fixed bg-no-repeat min-h-screen"
-      loading="lazy"
+
+      {/* Hero Section with Lazy Background */}
+      <div
+        className="min-h-screen bg-cover bg-center bg-fixed transition-opacity duration-1000"
+        style={{
+          backgroundImage: bgLoaded
+            ? "url('/image/perallex/hero.jpg')" // Load high-res when available
+            : "url('/image/perallex/heroSmall.jpg')", // Low-res first
+          opacity: bgLoaded ? 1 : 0.5, // Smooth transition
+        }}
       >
         <NavbarMain />
         <HeroMain />
@@ -28,8 +45,8 @@ function App() {
       <SkillsTimeline />
       <ProjectCards />
       <Education />
-      <ContactMeMain/>
-      <Footer/>
+      <ContactMeMain />
+      <Footer />
     </main>
   );
 }

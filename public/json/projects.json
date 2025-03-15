@@ -39,7 +39,7 @@
       { "className": "FaNodeJs", "name": "Node js" },
       { "className": "SiMongodb", "name": "MongoDB" },
       { "className": "SiExpress", "name": "Express js" },
-      { "className": "SiReactrouter", "name": "SiReactrouter" },
+      { "className": "SiReactrouter", "name": "React router" },
       { "className": "SiCloudinary", "name": "Cloudinary" }
     ],
     "demo_link": "https://javascript-project.abidsarkar100.xyz",
@@ -54,7 +54,7 @@
       { "className": "SiTailwindcss", "name": "Tailwindcss" },
       { "className": "FaNodeJs", "name": "Node js" },
       { "className": "SiExpress", "name": "Express js" },
-      { "className": "SiReactrouter", "name": "SiReactrouter" },
+      { "className": "SiReactrouter", "name": "React router" },
       { "className": "SiRedux", "name": "React Redux " }
     ],
     "demo_link": "https://code-vault-eight.vercel.app",

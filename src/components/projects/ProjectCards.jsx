@@ -21,6 +21,7 @@ import {
 
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { MdOutlineAnimation } from "react-icons/md";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const iconMap = {
   MdOutlineAnimation: MdOutlineAnimation,
@@ -72,9 +73,11 @@ const ProjectCards = () => {
             <div className="sm:flex rounded-2xl">
               {/* Image Section (1/3 width in desktop) */}
               <div className="flex justify-center items-center sm:w-1/3 w-full bg-gradient-to-r from-slate-900 to-slate-700 rounded-l-2xl">
-                <img
+                <LazyLoadImage
                   src={project.image}
                   alt={project.title}
+                  effect="blur"
+                  placeholderSrc="/image/project/low_Template.png"
                   className="w-fit h-fit object-cover  rounded-l-lg"
                 />
               </div>
