@@ -1,17 +1,16 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 
-
 import Education from "./components/education/Education";
 import HeroGradient from "./components/heroSection/HeroGradient";
 import HeroMain from "./components/heroSection/HeroMain";
 import NavbarMain from "./components/navbar/NavbarMain";
 
-
 import ProjectCards from "./components/projects/ProjectCards";
 import SkillsTimeline from "./components/skills/SkillsTimeline";
 import ContactMeMain from "./components/contact/ContactMeMain";
 import Footer from "./components/footer/Footer";
+import Experience from "./components/experience/Experience";
 
 function App() {
   const [bgLoaded, setBgLoaded] = useState(false);
@@ -26,7 +25,10 @@ function App() {
     <main className="font-josefin overflow-hidden">
       <h1 className="sr-only">Md Abid Sarkar - Full Stack Web Developer</h1>
 
-      <p className="sr-only">Web development, portfolio, abid sarkar, md abid sarkar, abid sarkar cse, abid sarkar ewu, abid portfolio</p>
+      <p className="sr-only">
+        Web development, portfolio, abid sarkar, md abid sarkar, abid sarkar
+        cse, abid sarkar ewu, abid portfolio
+      </p>
       {/* SEO Optimization */}
       {/* <PortfolioSEO /> */}
 
@@ -44,7 +46,7 @@ function App() {
         <HeroMain />
         <HeroGradient />
       </div>
-
+      <Experience />
       <SkillsTimeline />
       <ProjectCards />
       <Education />

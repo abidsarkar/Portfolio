@@ -16,11 +16,14 @@ import {
   SiAdobexd,
   SiPostman,
   SiCanva,
+  SiJsonwebtokens,
+  SiSocketdotio,
+  SiPassport,
 } from "react-icons/si";
 import { FaAmazon } from "react-icons/fa6";
 import { FaJava, FaLinux, FaCpanel } from "react-icons/fa";
 import { GrOracle } from "react-icons/gr";
-import { TbBrandCpp ,TbBrandFramerMotion} from "react-icons/tb";
+import { TbBrandCpp, TbBrandFramerMotion } from "react-icons/tb";
 
 import { FaC } from "react-icons/fa6";
 const iconMap = {
@@ -47,6 +50,9 @@ const iconMap = {
   SiPostman,
   SiCanva,
   FaLinux,
+  SiJsonwebtokens,
+  SiSocketdotio,
+  SiPassport,
 };
 
 const SkillsTimeline = () => {
@@ -60,7 +66,10 @@ const SkillsTimeline = () => {
   }, []);
 
   return (
-    <div id="skills" className="w-full flex flex-col sm:items-center px-6 py-10  bg-[url('/image/perallex/skills.jpg')] bg-cover bg-center bg-fixed bg-no-repeat min-h-screen ">
+    <div
+      id="skills"
+      className="w-full flex flex-col sm:items-center px-6 py-10  bg-[url('/image/perallex/skills.jpg')] bg-cover bg-center bg-fixed bg-no-repeat min-h-screen "
+    >
       <h2 className="text-3xl sm:text-6xl  mb-10 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text">
         Skills
       </h2>
@@ -72,19 +81,21 @@ const SkillsTimeline = () => {
             {/* timeline line */}
             <div className="absolute -left-7  h-full scale-y-120 rounded-full border border-l-1 border-gray "></div>
             {/* Skill Category */}
-            <motion.h3 className="text-xl sm:text-3xl mb-2 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text"
-            initial={{ x: "100%", opacity: 0 }} 
-            whileInView={{ x: 0, opacity: 1 }} 
-            transition={{ type: "spring", stiffness: 100, duration: 1 }} 
+            <motion.h3
+              className="text-xl sm:text-3xl mb-2 font-semibold font-poppins bg-clip-text text-transparent radial-gradient-text"
+              initial={{ x: "100%", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, duration: 1 }}
             >
               {category.category}
             </motion.h3>
 
             {/* Skills List */}
-            <motion.div className="mt-3 grid grid-cols-3 sm:grid-cols-4 gap-2"
-            initial={{ x: "-100%", opacity: 0 }} 
-            whileInView={{ x: 0, opacity: 1 }} 
-            transition={{ type: "spring", stiffness: 100, duration: .8 }} 
+            <motion.div
+              className="mt-3 grid grid-cols-3 sm:grid-cols-4 gap-2"
+              initial={{ x: "-100%", opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ type: "spring", stiffness: 100, duration: 0.8 }}
             >
               {category.skills.map((skill, idx) => {
                 const IconComponent = iconMap[skill.icon] || SiMongodb; // Default icon

@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 const NavbarLinks = ({ direction = "row" }) => {
   const links = [
     { link: "Home", section: "home" },
+    { link: "Experience", section: "experience" },
     { link: "Skills", section: "skills" },
     { link: "Projects", section: "projects" },
     { link: "Education", section: "education" },

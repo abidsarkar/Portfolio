@@ -17,6 +17,7 @@ import {
   SiRedux,
   SiCloudinary,
   SiTailwindcss,
+  SiJsonwebtokens,
 } from "react-icons/si";
 
 import { TbBrandFramerMotion } from "react-icons/tb";
@@ -38,6 +39,7 @@ const iconMap = {
   FaHtml5: FaHtml5,
   FaJs: FaJs,
   FaCss3Alt: FaCss3Alt,
+  SiJsonwebtokens:SiJsonwebtokens,
 };
 
 const ProjectCards = () => {

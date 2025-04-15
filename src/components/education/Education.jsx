@@ -4,9 +4,7 @@ import educationAnimation from "../../lotties/educationAnimation.json";
 import { motion } from "motion/react";
 
 const Education = () => {
-  const abc = () =>{
-    
-  }
+  
   const animationData = useMemo(() => educationAnimation, []);
   return (
     <section id="education" className="py-16 px-6 bg-darkBrown text-white">

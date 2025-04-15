@@ -20,7 +20,7 @@ const HeroText = () => {
         
         <span>
           {<Typewriter 
-          words={["React Dev", "Web designer", "Next js dev"]}
+          words={["Backend Dev","React Dev", "Web designer", "Next js dev"]}
           loop={Infinity}
             cursor
             cursorStyle='_'

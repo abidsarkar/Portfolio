@@ -6,6 +6,7 @@
     "technology": [
       { "className": "FaReact", "name": "react" },
       { "className": "SiTailwindcss", "name": "Tailwindcss" },
+      { "className": "SiJsonwebtokens", "name": "JSON Web Tokens" },
       { "className": "FaNodeJs", "name": "node-js" },
       { "className": "SiMongodb", "name": "MongoDB" },
       { "className": "SiExpress", "name": "Express js" },
