@@ -13,7 +13,9 @@
     "category": "Frontend",
     "skills": [
       { "title": "React.js", "icon": "SiReact" },
+      { "title": "Next.js", "icon": "TbBrandNextjs" },
       { "title": "Tailwind CSS", "icon": "SiTailwindcss" },
+      { "title": "redux toolkit", "icon": "TbBrandRedux" },
       { "title": "Framer Motion", "icon": "TbBrandFramerMotion" }
     ]
   },
@@ -22,32 +24,46 @@
     "skills": [
       { "title": "Node.js", "icon": "SiNodedotjs" },
       { "title": "Express.js", "icon": "SiExpress" },
+      { "title": "Rest Api", "icon": "BsCloudArrowDownFill" },
+      { "title": "GraphQL", "icon": "GrGraphQl" },
       { "title": "JSON Web Tokens", "icon": "SiJsonwebtokens" },
+      { "title": "OAuth2", "icon": "TbBrandOauth" },
+      { "title": "Logging", "icon": "FaSave" },
+      { "title": "Zod", "icon": "SiZod" },
+      { "title": "Mongoose", "icon": "SiMongodb" },
+      { "title": "Prisma", "icon": "TbBrandPrisma" },
       { "title": "Rate limiting", "icon": "SiJsonwebtokens" },
-      { "title": "Passport js", "icon": "SiPassport" },
       { "title": "Socket.io", "icon": "SiSocketdotio" }
     ]
   },
   {
-    "category": "Databases",
+    "category": "Databases & Storage",
     "skills": [
       { "title": "MongoDB", "icon": "SiMongodb" },
-      { "title": "Oracle DB", "icon": "GrOracle" }
+      { "title": "MySQL", "icon": "TbBrandMysql" },
+      { "title": "PostgreSQL", "icon": "SiPostgresql" },
+      { "title": "Oracle DB", "icon": "GrOracle" },
+      { "title": "AWS", "icon": "FaAws" },
+      { "title": "Cloudinary", "icon": "SiCloudinary" }
     ]
   },
   {
     "category": "Tools",
     "skills": [
       { "title": "Git", "icon": "SiGit" },
-      { "title": "Postman", "icon": "SiPostman" },
-      { "title": "cPanel", "icon": "FaCpanel" }
+      { "title": "Postman", "icon": "SiPostman" }, 
+      { "title": "Docker", "icon": "FaDocker" },
+      { "title": "Linux ", "icon": "FaLinux" }
     ]
   },
   {
-    "category": "DevOps",
+    "category": "Deployment",
     "skills": [
-      { "title": "CI/CD", "icon": "SiGithubactions" },
-      { "title": "Linux ", "icon": "FaLinux" }
+      { "title": "Github actions", "icon": "SiGithubactions" },
+      { "title": "Vercel", "icon": "SiVercel" },
+      { "title": "cPanel", "icon": "FaCpanel" },
+      { "title": "Render", "icon": "SiRender" }
+      
     ]
   },
   {

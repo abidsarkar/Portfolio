@@ -1,5 +1,56 @@
 [
   {
+    "title": "WebApp Admin Panel-Backend ",
+    "image": "/image/project/postman.png",
+    "description": "＞﹏＜Building a complete admin panel with secure admin access and full control over employees and users, including product and order management modules with role-based authentication and secure login.＞﹏＜ Engineered a product upload and order, dynamic product filtering, search, export-to-Excel functionality, logging reports, and rate limiting for enhanced security and performance",
+    "technology": [
+     
+      { "className": "SiJsonwebtokens", "name": "JSON Web Tokens" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "SiMongodb", "name": "MongoDB" },
+      { "className": "SiExpress", "name": "Express js" },
+      { "className": "TbBrandOauth", "name": "OAuth2" },
+      { "className": "FaSave", "name": "Logging(Winston)" },
+      { "className": "FaSlackHash", "name": "Argon2" },
+      { "className": "MdAttachEmail", "name": "Nodemailer" }
+      
+    ],
+    "demo_link": "https://github.com/abidsarkar/Web-Development.git",
+    "github_link": "https://github.com/abidsarkar/Web-Development.git"
+  },
+  {
+    "title": "Portfolio ",
+    "image": "/image/project/portfolio.png",
+    "description": "This project showcases my skills as a web developer, including my ability to build responsive websites, work with JavaScript frameworks, and integrate various web technologies.",
+    "technology": [
+      { "className": "FaReact", "name": "react" },
+      { "className": "SiTailwindcss", "name": "Tailwindcss" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "MdOutlineAnimation", "name": "Lottie" },
+      { "className": "TbBrandFramerMotion", "name": "Framer Motion" }
+    ],
+    "demo_link": "https://www.abidsarkar100.xyz",
+    "github_link": "https://github.com/abidsarkar/Portfolio"
+  },
+  {
+    "title": "Jotter Storage Management System – MERN Stack Web App ",
+    "image": "/image/project/postman.png",
+    "description": "＞﹏＜Developed a cloud-style file management system allowing users to sign up/login with Google, create folders,and upload files, images, and PDFs.＞﹏＜Implemented admin controls for storage limits and user restrictions, including analytics of total files, folders,images, and visualization of remaining space.",
+    "technology": [
+     
+      { "className": "SiJsonwebtokens", "name": "JSON Web Tokens" },
+      { "className": "FaNodeJs", "name": "node-js" },
+      { "className": "SiMongodb", "name": "MongoDB" },
+      { "className": "SiExpress", "name": "Express js" },
+      { "className": "TbBrandOauth", "name": "OAuth2" },
+      { "className": "FaSlackHash", "name": "Argon2" },
+      { "className": "MdAttachEmail", "name": "Nodemailer" }
+      
+    ],
+    "demo_link": "https://github.com/abidsarkar/jotter-storage-management-system.git",
+    "github_link": "https://github.com/abidsarkar/jotter-storage-management-system.git"
+  },
+  {
     "title": "Employee Management System ",
     "image": "/image/project/ems.png",
     "description": "The app is for solving employee management problem.You can login as Admin and create Employee Account and give task to them. track there task add new task and delete task. Search Employee to show there Working Progress and An Employee also Login using there Id And Password. they can submit there task and Let the Admin Know About Status of the work. The Frontend Host in Vercel and Own Hosting the BackEnd Host In Render",
@@ -17,19 +68,24 @@
     "github_link": "https://github.com/abidsarkar/Employee-Managemet-System-MERN-Stack.git"
   },
   {
-    "title": "Portfolio ",
-    "image": "/image/project/portfolio.png",
-    "description": "This project showcases my skills as a web developer, including my ability to build responsive websites, work with JavaScript frameworks, and integrate various web technologies.",
+    "title": "BajarAnioDotCom – Node.js Backend Project ",
+    "image": "/image/project/postman.png",
+    "description": "＞﹏＜Building a person-to-person daily grocery reminder app with secure authentication, allowing users to connect via request/accept workflow.＞﹏＜Only connected users can send grocery lists, add notes, and track checklist items; notifications are sent to the list owner when items are purchased.",
     "technology": [
-      { "className": "FaReact", "name": "react" },
-      { "className": "SiTailwindcss", "name": "Tailwindcss" },
+     
+      { "className": "SiJsonwebtokens", "name": "JSON Web Tokens" },
       { "className": "FaNodeJs", "name": "node-js" },
-      { "className": "MdOutlineAnimation", "name": "Lottie" },
-      { "className": "TbBrandFramerMotion", "name": "Framer Motion" }
+      { "className": "SiMongodb", "name": "MongoDB" },
+      { "className": "SiExpress", "name": "Express js" },
+      { "className": "TbBrandOauth", "name": "OAuth2" },
+      { "className": "FaSlackHash", "name": "Argon2" },
+      { "className": "MdAttachEmail", "name": "Nodemailer" }
+      
     ],
-    "demo_link": "https://www.abidsarkar100.xyz",
-    "github_link": "https://github.com/abidsarkar/Portfolio"
+    "demo_link": "https://github.com/abidsarkar/bajarAnioDotCom.git",
+    "github_link": "https://github.com/abidsarkar/bajarAnioDotCom.git"
   },
+  
   {
     "title": "javascript Project Hub",
     "image": "image/project/jsProjectHub.png",

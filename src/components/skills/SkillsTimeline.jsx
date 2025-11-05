@@ -19,11 +19,24 @@ import {
   SiJsonwebtokens,
   SiSocketdotio,
   SiPassport,
+  SiZod,
+  SiPostgresql,
+  SiCloudinary ,
+  SiVercel, SiRender 
 } from "react-icons/si";
+import { BsCloudArrowDownFill } from "react-icons/bs";
 import { FaAmazon } from "react-icons/fa6";
-import { FaJava, FaLinux, FaCpanel } from "react-icons/fa";
-import { GrOracle } from "react-icons/gr";
-import { TbBrandCpp, TbBrandFramerMotion } from "react-icons/tb";
+import { FaJava, FaLinux, FaCpanel, FaSave ,FaAws,FaDocker  } from "react-icons/fa";
+import { GrOracle, GrGraphQl } from "react-icons/gr";
+import {
+  TbBrandCpp,
+  TbBrandFramerMotion,
+  TbBrandRedux,
+  TbBrandOauth,
+  TbBrandPrisma,
+  TbBrandMysql,
+  TbBrandNextjs 
+} from "react-icons/tb";
 
 import { FaC } from "react-icons/fa6";
 const iconMap = {
@@ -53,6 +66,21 @@ const iconMap = {
   SiJsonwebtokens,
   SiSocketdotio,
   SiPassport,
+  TbBrandRedux,
+  BsCloudArrowDownFill,
+  TbBrandOauth,
+  FaSave,
+  SiZod,
+  TbBrandPrisma,
+  GrGraphQl,
+  TbBrandMysql,
+  SiPostgresql,
+  SiCloudinary,
+  FaAws ,
+  FaDocker ,
+  SiVercel ,
+  SiRender ,
+  TbBrandNextjs 
 };
 
 const SkillsTimeline = () => {
