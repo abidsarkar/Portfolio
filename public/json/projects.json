@@ -51,6 +51,34 @@
     "github_link": "https://github.com/abidsarkar/jotter-storage-management-system.git"
   },
   {
+    "title": "SQL project: Coffee Shop Market Analysis! ",
+    "image": "/image/project/sql1.jpg",
+    "description": "Published a complete end-to-end SQL case study on GitHub where I analyzed city-wise coffee sales, customer behavior, estimated market potential, and profitability using real-world business logic.",
+    "technology": [
+     
+     
+      { "className": "SiPostgresql", "name": "POSTGRESQL" }
+      
+      
+    ],
+    "demo_link": "https://github.com/abidsarkar/Coffee-shop-analysis-sql-project.git",
+    "github_link": "https://github.com/abidsarkar/Coffee-shop-analysis-sql-project.git"
+  },
+  {
+    "title": "SQL Project Completed: Netflix Data Analysis ! ",
+    "image": "/image/project/sql-netflix.jpg",
+    "description": "A complete SQL case study project where I explored and analyzed the Netflix Movies & TV Shows dataset using PostgreSQL. This project includes 15 real-world business questions solved using SQL, covering data cleaning, aggregation, window functions, CTEs, string operations, and date functions.",
+    "technology": [
+     
+     
+      { "className": "SiPostgresql", "name": "Postgresql" }
+      
+      
+    ],
+    "demo_link": "https://github.com/abidsarkar/Netflix-SQL-Data-Analysis-Project",
+    "github_link": "https://github.com/abidsarkar/Netflix-SQL-Data-Analysis-Project"
+  },
+  {
     "title": "Employee Management System ",
     "image": "/image/project/ems.png",
     "description": "The app is for solving employee management problem.You can login as Admin and create Employee Account and give task to them. track there task add new task and delete task. Search Employee to show there Working Progress and An Employee also Login using there Id And Password. they can submit there task and Let the Admin Know About Status of the work. The Frontend Host in Vercel and Own Hosting the BackEnd Host In Render",

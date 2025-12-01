@@ -18,6 +18,7 @@ import {
   SiCloudinary,
   SiTailwindcss,
   SiJsonwebtokens,
+  SiPostgresql
 } from "react-icons/si";
 
 import { TbBrandFramerMotion } from "react-icons/tb";
@@ -40,6 +41,7 @@ const iconMap = {
   FaJs: FaJs,
   FaCss3Alt: FaCss3Alt,
   SiJsonwebtokens:SiJsonwebtokens,
+  SiPostgresql:SiPostgresql,
 };
 
 const ProjectCards = () => {
