@@ -15,7 +15,7 @@ const ContactSocial = () => {
       </a>
 
       <a
-        href="https://www.linkedin.com/in/md-abid-sarkar-556903290/"
+        href="https://www.linkedin.com/in/md-abid-sarkar/"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 rounded-full bg-gray-800 hover:bg-orange transition-all duration-300"

@@ -84,7 +84,7 @@ const Education = () => {
               Master of Science in Computer Science and Engineering
             </p>
             <p className="text-sm text-lightGray mt-1">
-              June 2025 - Present (Expected Completion:March 2026)
+              June 2025 - Present
             </p>
           </motion.div>
 

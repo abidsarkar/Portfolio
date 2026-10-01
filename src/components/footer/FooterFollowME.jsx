@@ -16,7 +16,7 @@ const FooterFollowME = () => {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/md-abid-sarkar-556903290/"
+          href="https://www.linkedin.com/in/md-abid-sarkar/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-white"
